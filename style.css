@@ -1,0 +1,24 @@
+:root {
+  color-scheme: light;
+  font-family: Tahoma, "Segoe UI", sans-serif;
+  color: #142c28;
+  background: #f4f7f4;
+}
+
+body { margin: 0; line-height: 1.9; }
+header, main, footer { max-width: 48rem; margin-inline: auto; padding-inline: 1.4rem; }
+header { padding-block: 1.4rem; }
+main { padding-block: 2rem 2.6rem; }
+footer { border-block-start: 1px solid #d4dfd9; padding-block: 1.4rem 2rem; }
+a { color: #07584a; text-underline-offset: 0.23em; }
+a:focus-visible { outline: 2px solid #07584a; outline-offset: 0.25em; }
+.brand { font-weight: 700; text-decoration: none; }
+.brand span { margin-inline-start: .55em; font-weight: 400; }
+.eyebrow { margin: 0; color: #325b52; }
+h1 { margin-block: .3em .55em; font-size: clamp(1.85rem, 5vw, 3rem); line-height: 1.35; }
+h2 { margin: 0 0 .3em; font-size: 1.22rem; }
+.intro { max-width: 40rem; font-size: 1.08rem; }
+section { margin-block-start: 1.35rem; border-block-start: 1px solid #d4dfd9; padding-block-start: 1rem; }
+section p { margin-block: .5rem; }
+ol { padding-inline-start: 1.5rem; }
+nav { display: flex; flex-wrap: wrap; gap: .55rem 1.5rem; }
